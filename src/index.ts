@@ -37,7 +37,7 @@ export {
 
 export interface IExecFunctionOptions extends ExecOptions {
   silent?: boolean;
-  async?: false;
+  async?: boolean;
 }
 
 export function asyncExec(
